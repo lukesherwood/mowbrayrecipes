@@ -27,3 +27,7 @@ document.addEventListener("turbolinks:load", () => {
   $('[data-toggle="tooltip"]').tooltip()
   $('[data-toggle="popover"]').popover()
 })
+$(document).ready(function() {
+    $('.has-tooltip').tooltip();
+  });
+  
